@@ -1,7 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+
 *,
 *::after,
 *::before {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+:root {
+  --text-color: #ffffff;
+  --second-text-color: #898082;
+  --header-color: #c8693a;
+  scroll-behavior: smooth;
+  font-family: "Rubik", sans-serif;
 }
