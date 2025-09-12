@@ -1,5 +1,7 @@
 .hero {
-  background-color: #261e1c;
+  background-image: url(../img/background/hero.jpg);
+  background-size: cover;
+  height: 100vh;
 
   .hero__title {
     font-family: "Great Vibes", cursive;
