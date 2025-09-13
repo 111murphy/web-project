@@ -6,6 +6,8 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 50px;
+  position: relative;
+  z-index: 1;
 
   .preferences__container-1 {
     background-image: url(../img/preferences/for-your-special-events.jpg);
