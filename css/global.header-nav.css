@@ -1,43 +1,65 @@
-.header-nav__main-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-
-  .header-nav__logo-container {
-    margin-right: auto;
-
-    .header-nav__logo {
-      width: 176px;
-    }
-  }
-  .header-nav__ul-container {
+.header-nav {
+  .header-nav__main-container {
+    padding: 30px 40px;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    gap: 50px;
 
-    .header-nav__ul {
-      list-style-type: none;
-    }
+    .header-nav__logo-container {
+      flex-basis: 300px;
+      margin-right: auto;
 
-    .header-nav__point {
-      text-decoration: none;
-      color: var(--text-color);
-
-      &:hover {
-        color: var(--header-color);
+      .header-nav__logo {
+        width: 176px;
       }
     }
-  }
+    .header-nav__ul-container {
+      display: flex;
+      align-items: center;
 
-  .header-nav__social-svg-container {
-    .list--horizontal_3J3 {
-      list-style-type: none;
+      .header-nav__ul {
+        display: flex;
+        list-style-type: none;
+        gap: 20px;
+      }
+
+      .header-nav__point {
+        text-decoration: none;
+        color: var(--text-color);
+
+        &:hover {
+          color: var(--header-color);
+        }
+      }
     }
-  }
 
-  .social-icons__icon_3m8 {
-    color: var(--header-color);
+    .header-nav__social-svg-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .social-icons-container_2Id {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .list--horizontal_3J3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+        gap: 20px;
+      }
+    }
+
+    .social-icons__icon_3m8 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: var(--header-color);
+    }
   }
 }
