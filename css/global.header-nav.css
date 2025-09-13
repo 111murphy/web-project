@@ -1,11 +1,18 @@
 .header-nav {
   .header-nav__main-container {
-    padding: 30px 40px;
+    padding: 30px 24px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-    gap: 50px;
+
+    @media (min-width: 1030px) {
+      padding: 30px 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+      gap: 50px;
+    }
 
     .header-nav__logo-container {
       flex-basis: 300px;
@@ -44,14 +51,14 @@
         display: flex;
         justify-content: center;
         align-items: center;
-      }
 
-      .list--horizontal_3J3 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        list-style-type: none;
-        gap: 20px;
+        .list--horizontal_3J3 {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          list-style-type: none;
+          gap: 20px;
+        }
       }
     }
 

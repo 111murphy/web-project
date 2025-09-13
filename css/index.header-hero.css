@@ -1,6 +1,7 @@
 .hero {
   background-image: url(../img/background/hero.jpg);
   background-size: cover;
+  background-attachment: fixed;
   height: 100vh;
 
   .hero__containers {
@@ -12,13 +13,18 @@
     }
 
     .hero__container {
-      padding: 220px 0 250px;
+      padding: 210px 0 130px;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: flex-start;
       gap: 35px;
       flex-shrink: 1;
+      margin-left: 28px;
+
+      @media (min-width: 1030px) {
+        padding: 220px 0 250px;
+      }
 
       .hero__text-container {
       }
@@ -26,16 +32,25 @@
       .hero__title {
         font-family: "Great Vibes", cursive;
         color: var(--header-color);
-        font-size: 28px;
+        font-size: 14px;
         margin-bottom: 10px;
+
+        @media (min-width: 1030px) {
+          font-size: 28px;
+          margin-bottom: 10px;
+        }
       }
 
       h1 {
         font-family: "Prata", serif;
         color: var(--text-color);
-        font-size: 84px;
+        font-size: 58px;
         font-weight: normal;
         margin-bottom: 30px;
+
+        @media (min-width: 1030px) {
+          font-size: 84px;
+        }
       }
 
       .hero__img-label {
@@ -50,9 +65,14 @@
 
       .hero__btn-container {
         display: flex;
-        justify-content: sp;
         align-items: flex-start;
         flex-wrap: wrap;
+        flex-direction: column;
+
+        @media (min-width: 345px) {
+          display: flex;
+          flex-direction: row;
+        }
 
         .hero__btn-orange {
           background-color: var(--header-color);
@@ -68,9 +88,14 @@
           justify-content: center;
           align-items: center;
           margin-right: 20px;
+          margin-bottom: 20px;
 
           &:hover {
             background-color: #d3652ecb;
+          }
+
+          @media (min-width: 345px) {
+            margin-bottom: 0;
           }
         }
 

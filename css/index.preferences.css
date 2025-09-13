@@ -1,0 +1,185 @@
+.preferences {
+  background-color: #261e1c;
+  padding: 90px 0 60px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+
+  .preferences__container-1 {
+    background-image: url(../img/preferences/for-your-special-events.jpg);
+    background-size: cover;
+    width: 272px;
+    height: 430px;
+
+    @media (min-width: 800px) {
+      width: 370px;
+      height: 477px;
+    }
+
+    .preferences__text-container {
+      display: flex;
+      flex-direction: column;
+      padding: 215px 30px;
+
+      @media (min-width: 800px) {
+        display: flex;
+        flex-direction: column;
+        padding: 280px 45px;
+      }
+
+      .preferences__header {
+        font-family: "Prata", serif;
+        color: var(--text-color);
+        font-size: 22px;
+        font-weight: normal;
+      }
+
+      .preferences__text {
+        font-family: "Rubik", sans-serif;
+        color: var(--second-text-color);
+        font-size: 16px;
+      }
+
+      .preferences__btn-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 5px;
+        margin-top: 25px;
+
+        .preferences__btn {
+          color: var(--text-color);
+          font-family: "Rubik", sans-serif;
+          font-size: 15px;
+          text-decoration: none;
+          font-weight: bold;
+        }
+
+        .preferences__svg {
+          width: 24px;
+          height: 24px;
+          margin-top: 3px;
+        }
+      }
+    }
+  }
+
+  .preferences__container-2 {
+    background-image: url(../img/preferences/100-organic-wines.jpg);
+    background-size: cover;
+    width: 272px;
+    height: 430px;
+
+    @media (min-width: 800px) {
+      width: 370px;
+      height: 477px;
+    }
+
+    .preferences__text-container {
+      display: flex;
+      flex-direction: column;
+      padding: 215px 30px;
+
+      @media (min-width: 800px) {
+        display: flex;
+        flex-direction: column;
+        padding: 280px 45px;
+      }
+
+      .preferences__header {
+        font-family: "Prata", serif;
+        color: var(--text-color);
+        font-size: 22px;
+        font-weight: normal;
+      }
+
+      .preferences__text {
+        font-family: "Rubik", sans-serif;
+        color: var(--second-text-color);
+        font-size: 16px;
+      }
+
+      .preferences__btn-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 5px;
+        margin-top: 25px;
+
+        .preferences__btn {
+          color: var(--text-color);
+          font-family: "Rubik", sans-serif;
+          font-size: 15px;
+          text-decoration: none;
+          font-weight: bold;
+        }
+
+        .preferences__svg {
+          width: 24px;
+          height: 24px;
+          margin-top: 3px;
+        }
+      }
+    }
+  }
+
+  .preferences__container-3 {
+    background-image: url(../img/preferences/selected-grape-varieties.jpg);
+    background-size: cover;
+    width: 272px;
+    height: 430px;
+
+    @media (min-width: 800px) {
+      width: 370px;
+      height: 477px;
+    }
+
+    .preferences__text-container {
+      display: flex;
+      flex-direction: column;
+      padding: 200px 30px;
+
+      @media (min-width: 800px) {
+        display: flex;
+        flex-direction: column;
+        padding: 280px 45px;
+      }
+
+      .preferences__header {
+        font-family: "Prata", serif;
+        color: var(--text-color);
+        font-size: 22px;
+        font-weight: normal;
+      }
+
+      .preferences__text {
+        font-family: "Rubik", sans-serif;
+        color: var(--second-text-color);
+        font-size: 16px;
+      }
+
+      .preferences__btn-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 5px;
+        margin-top: 25px;
+
+        .preferences__btn {
+          color: var(--text-color);
+          font-family: "Rubik", sans-serif;
+          font-size: 15px;
+          text-decoration: none;
+          font-weight: bold;
+        }
+
+        .preferences__svg {
+          width: 24px;
+          height: 24px;
+          margin-top: 3px;
+        }
+      }
+    }
+  }
+}
