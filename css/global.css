@@ -16,6 +16,7 @@
   --header-color: #c8693a;
   scroll-behavior: smooth;
   font-family: "Rubik", sans-serif;
+  color: var(--text-color);
 }
 
 img {
@@ -24,6 +25,6 @@ img {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: auto;
 }
