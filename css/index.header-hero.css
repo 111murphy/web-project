@@ -27,9 +27,6 @@
         padding: 220px 0 250px;
       }
 
-      .hero__text-container {
-      }
-
       .hero__title {
         font-family: "Great Vibes", cursive;
         color: var(--header-color);
@@ -62,6 +59,7 @@
         color: var(--text-color);
         font-size: 18px;
         font-weight: 18px;
+        line-height: 30px;
       }
 
       .hero__btn-container {
