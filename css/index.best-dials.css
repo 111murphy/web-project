@@ -1,0 +1,44 @@
+.best-dials {
+  background-color: #261e1c;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 90px;
+  padding-bottom: 50px;
+
+  .best-dials__header {
+    font-family: "Great Vibes", cursive;
+    color: var(--header-color);
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: normal;
+
+    @media (min-width: 1030px) {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .best-dials__text-first {
+    font-family: "Prata", serif;
+    color: var(--text-color);
+    font-size: 34px;
+    font-weight: normal;
+    margin-bottom: 30px;
+
+    @media (min-width: 1030px) {
+      font-size: 48px;
+    }
+  }
+
+  .best-dials__text-second {
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    color: var(--text-color);
+    font-size: 18px;
+    line-height: 30px;
+    padding: 20px 30px 50px;
+  }
+}
