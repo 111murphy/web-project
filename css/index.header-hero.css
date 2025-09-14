@@ -10,6 +10,11 @@
     .hero__empty-container {
       flex-basis: 900px;
       flex-shrink: 100;
+
+      @media (min-width: 1900px) {
+        display: flex;
+        justify-content: flex-end;
+      }
     }
 
     .hero__container {
@@ -25,6 +30,10 @@
 
       @media (min-width: 1030px) {
         padding: 220px 0 250px;
+      }
+
+      @media (min-width: 1800px) {
+        padding: 280px 0 310px;
       }
 
       .hero__title {
