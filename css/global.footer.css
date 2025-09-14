@@ -1,3 +1,10 @@
 .footer__instagram-image {
   width: 80px;
 }
+
+.footer__instagram-images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+}

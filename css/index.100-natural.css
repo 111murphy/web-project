@@ -3,7 +3,7 @@
   padding-top: 50px;
   padding-bottom: 60px;
   margin-top: -1px;
-  
+
   .natural__header-container {
     display: flex;
     justify-content: center;
@@ -54,15 +54,20 @@
     flex-wrap: wrap;
     padding: 0 50px 0 50px;
 
-    @media (min-width: 770px) {
-      display: flex;
-      justify-content: flex-end;
-      align-items: center;
-      flex-direction: column;
+    @media (min-width: 793px) {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .natural__image {
+      max-width: 100%;
+      height: auto;
     }
 
     .natural__container3 {
       padding-top: 50px;
+      padding-right: 25px;
+      padding-left: 25px;
 
       .natural__header2 {
         font-family: "Prata", serif;
