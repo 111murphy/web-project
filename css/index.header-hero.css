@@ -2,8 +2,7 @@
   background-image: url(../img/background/hero.jpg);
   background-size: cover;
   background-attachment: fixed;
-  height: 100%;
-  width: 100%;
+  min-height: 100vh;
 
   .hero__containers {
     display: flex;
