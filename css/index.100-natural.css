@@ -1,5 +1,5 @@
 .natural {
-  background-color: #261e1c;
+  background-color: var(--background-color);
   padding-top: 50px;
   padding-bottom: 60px;
   margin-top: -1px;
@@ -64,19 +64,19 @@
       height: auto;
     }
 
-    .natural__container3 {
+    .natural__card-container {
       padding-top: 50px;
       padding-right: 25px;
       padding-left: 25px;
 
-      .natural__header2 {
+      .natural__card-header {
         font-family: "Prata", serif;
         color: var(--text-color);
         font-size: 22px;
         font-weight: normal;
       }
 
-      .natural__text2 {
+      .natural__card-text-container {
         font-family: "Rubik", sans-serif;
         font-size: 16px;
         color: var(--second-text-color);

@@ -1,5 +1,5 @@
 .preferences {
-  background-color: #261e1c;
+  background-color: var(--background-color);
   padding: 90px 0 60px;
   display: flex;
   justify-content: center;

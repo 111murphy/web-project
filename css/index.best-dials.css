@@ -1,5 +1,5 @@
 .best-dials {
-  background-color: #261e1c;
+  background-color: var(--background-color);
   text-align: center;
   display: flex;
   justify-content: center;
