@@ -1,5 +1,5 @@
-<nav class="header-nav">
-  <div class="header-nav__main-container container">
+<nav class="header">
+  <div class="header__container container">
     <div class="header-nav__logo-container">
       <a class="header-nav__logo-go" href="./"
         ><img
@@ -9,26 +9,33 @@
           alt="CaliWines Logo"
       /></a>
     </div>
-    <div class="header-nav__ul-container">
-      <ul class="header-nav__ul">
-        <li>
-          <a class="header-nav__point" href="#">Best Deals</a>
+
+    <button class="header__burger" aria-label="Toggle menu">
+      <span class="header__burger-line"></span>
+      <span class="header__burger-line"></span>
+      <span class="header__burger-line"></span>
+    </button>
+
+    <nav class="header__nav">
+      <ul class="header__menu">
+        <li class="header__menu-item">
+          <a class="header__menu-link" href="#">Best Deals</a>
         </li>
-        <li>
-          <a class="header-nav__point" href="#">History</a>
+        <li class="header__menu-item">
+          <a class="header__menu-link" href="#">History</a>
         </li>
-        <li>
-          <a class="header-nav__point" href="#">About Us</a>
+        <li class="header__menu-item">
+          <a class="header__menu-link" href="#">About Us</a>
         </li>
-        <li>
-          <a class="header-nav__point" href="#">Shop</a>
+        <li class="header__menu-item">
+          <a class="header__menu-link" href="#">Shop</a>
         </li>
-        <li>
-          <a class="header-nav__point" href="#">Contact Us</a>
+        <li class="header__menu-item">
+          <a class="header__menu-link" href="#">Contact Us</a>
         </li>
       </ul>
-    </div>
-    <div class="header-nav__social-svg-container">
+    </nav>
+    <!--<div class="header-nav__social-svg-container">
       <div class="social-icons-container_2Id w-socials decorator-wrapper_193">
         <ul class="list--horizontal_3J3" style="--social-icons-offset: 15px">
           <li style="width: 26; height: 26" class="social-icons_27c">
@@ -159,6 +166,6 @@
               ></use></svg></span
         ></i>
       </div>
-    </div>
+    </div>-->
   </div>
 </nav>

@@ -18,6 +18,23 @@
   scroll-behavior: smooth;
   font-family: "Rubik", sans-serif;
   color: var(--text-color);
+
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+
+  /* Other */
+  --header-height: 4rem;
+  --container-max-width: 1200px;
+  --border-radius: 8px;
+  --transition-speed: 0.3s;
+}
+
+body.no-scroll {
+  overflow: hidden;
 }
 
 img {
