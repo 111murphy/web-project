@@ -9,6 +9,7 @@
   align-items: center;
   text-align: center;
   padding: 100px 20px;
+  background-position: 48% 50%;
 
   .crafted-by__header {
     font-family: "Great Vibes", cursive;

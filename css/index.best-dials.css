@@ -7,6 +7,8 @@
   flex-direction: column;
   padding-top: 90px;
   padding-bottom: 50px;
+  padding-left: 24px;
+  padding-right: 24px;
 
   .best-dials__header {
     font-family: "Great Vibes", cursive;
