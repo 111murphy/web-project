@@ -15,6 +15,7 @@
   --second-text-color: #898082;
   --header-color: #c8693a;
   --background-color: #261e1c;
+  --background-color-second: #241917;
   scroll-behavior: smooth;
   font-family: "Rubik", sans-serif;
   color: var(--text-color);
@@ -44,6 +45,11 @@ img {
 
 .container {
   max-width: 1400px;
+  margin: auto;
+}
+
+.small-container {
+  max-width: 1200px;
   margin: auto;
 }
 

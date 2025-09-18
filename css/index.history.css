@@ -1,0 +1,59 @@
+.history {
+  background-color: var(--background-color);
+  padding: 60px 0 90px;
+
+  .history__image-container {
+    padding: 0 24px;
+
+    @media (min-width: 480px) {
+      padding: 0 32px;
+    }
+
+    @media (min-width: 992px) {
+      padding: 0 40px;
+    }
+  }
+
+  .history__years-container {
+    padding: 0 13px;
+
+    @media (min-width: 480px) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 0 21px;
+    }
+
+    @media (min-width: 992px) {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      padding: 0 29px;
+    }
+
+    .history__year-container {
+      padding: 50px 15px 0;
+
+      .history__year {
+        font-family: "Rubik", sans-serif;
+        font-size: 14px;
+        color: var(--header-color);
+        padding-bottom: 15px;
+        font-style: italic;
+      }
+
+      .history__header {
+        font-family: "Prata", serif;
+        color: var(--text-color);
+        font-size: 22px;
+        font-weight: normal;
+      }
+
+      p {
+        font-family: "Rubik", sans-serif;
+        font-size: 16px;
+        color: var(--second-text-color);
+        line-height: 1.6;
+        font-weight: normal;
+      }
+    }
+  }
+}

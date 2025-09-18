@@ -1,7 +1,6 @@
 .natural {
   background-color: var(--background-color);
-  padding-top: 50px;
-  padding-bottom: 60px;
+  padding: 50px 0 60px;
   margin-top: -1px;
 
   .natural__header-container {
@@ -9,6 +8,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 30px;
 
     .natural__header {
       font-family: "Great Vibes", cursive;
@@ -59,15 +59,20 @@
       grid-template-columns: 1fr 1fr 1fr;
     }
 
-    .natural__image {
-      max-width: 100%;
-      height: auto;
+    .natural__image-container {
+      padding-bottom: 50px;
+
+      .natural__image {
+        max-width: 100%;
+        height: auto;
+      }
     }
 
     .natural__card-container {
-      padding-top: 50px;
-      padding-right: 25px;
-      padding-left: 25px;
+      @media (min-width: 793px) {
+        padding-right: 25px;
+        padding-left: 25px;
+      }
 
       .natural__card-header {
         font-family: "Prata", serif;
