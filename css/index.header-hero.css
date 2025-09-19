@@ -1,9 +1,13 @@
 .hero {
   background-image: url(../img/background/hero.jpg);
   background-size: cover;
-  background-attachment: fixed;
+
   min-height: 100vh;
   background-position: 1% 50%;
+
+  @media (min-width: 768px) {
+    background-attachment: fixed;
+  }
 
   .hero__containers {
     display: flex;
