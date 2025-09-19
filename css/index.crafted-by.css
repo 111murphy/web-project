@@ -1,7 +1,6 @@
 .crafted-by {
   background-image: url(../img/background/discover.jpg);
   background-size: cover;
-  background-attachment: fixed;
   min-height: 80vh;
   display: flex;
   flex-direction: column;
@@ -10,6 +9,10 @@
   text-align: center;
   padding: 100px 20px;
   background-position: 48% 50%;
+
+  @media (min-width: 768px) {
+    background-attachment: fixed;
+  }
 
   .crafted-by__header {
     font-family: "Great Vibes", cursive;
