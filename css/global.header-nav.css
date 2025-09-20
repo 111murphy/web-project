@@ -69,6 +69,7 @@
   display: flex;
   list-style: none;
   gap: 20px;
+  padding-right: 40px;
 }
 
 .header__menu-link {
@@ -109,10 +110,6 @@
 }
 
 @media (max-width: 955px) {
-  .header__social-svg-container {
-    display: none;
-  }
-
   .header {
     background: var(--background-color);
   }
@@ -136,8 +133,8 @@
 
   .header__menu {
     flex-direction: column;
-    padding: var(--spacing-md);
-    gap: var(--spacing-sm);
+    padding: 0 0 40px;
+    gap: 5px;
     opacity: 0;
     transition: opacity var(--transition-speed);
   }
