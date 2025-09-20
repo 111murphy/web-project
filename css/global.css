@@ -18,6 +18,7 @@
   --background-color-second: #241917;
   --background-color-footer: #1a1512;
   --background-input: #25211f;
+  --background-footer: #130f0e;
   scroll-behavior: smooth;
   font-family: "Rubik", sans-serif;
   color: var(--text-color);
