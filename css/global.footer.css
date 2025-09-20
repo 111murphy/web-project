@@ -149,7 +149,7 @@
       justify-content: center;
       align-items: center;
       text-align: center;
-      gap: 45px;
+      gap: 70px;
 
       @media (min-width: 768px) {
         display: grid;
