@@ -1,6 +1,7 @@
 .history {
   background-color: var(--background-color);
   padding: 60px 0 90px;
+  min-height: 100vh;
 
   .history__image-container {
     padding: 0 24px;

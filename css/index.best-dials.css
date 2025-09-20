@@ -43,4 +43,57 @@
     line-height: 30px;
     padding: 20px 30px 50px;
   }
+
+  .best-dials__slideshow-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @media (min-width: 530px) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+    }
+
+    @media (min-width: 992px) {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+    }
+
+    .best-dials__card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .best-dials__text {
+        font-size: 18px;
+        padding: 25px 0;
+      }
+
+      .best-dials__price {
+        font-size: 18px;
+        font-weight: 700;
+        padding-bottom: 25px;
+      }
+
+      .best-dials__btn {
+        background-color: var(--header-color);
+        color: var(--text-color);
+        border-radius: 2px;
+        border: 3px none;
+        font-weight: 850;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 27px;
+        margin-bottom: 50px;
+      }
+    }
+  }
 }
