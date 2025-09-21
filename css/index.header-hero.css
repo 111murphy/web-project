@@ -3,7 +3,7 @@
   background-size: cover;
   background-position: 1% 50%;
 
-  @media (min-width: 1025px) {
+  @media (min-width: 1367px) {
     background-attachment: fixed;
   }
 

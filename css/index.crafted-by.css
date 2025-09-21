@@ -8,7 +8,7 @@
   text-align: center;
   background-position: 48% 50%;
 
-  @media (min-width: 1025x) {
+  @media (min-width: 1367px) {
     background-attachment: fixed;
   }
 

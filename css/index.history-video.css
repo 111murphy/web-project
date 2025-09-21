@@ -1,0 +1,96 @@
+.history-video {
+  background-image: url(../img/history-video/history-video.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  text-align: start;
+  background-position: 95% 50%;
+
+  @media (min-width: 1367px) {
+    background-attachment: fixed;
+  }
+
+  .history-video__main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+    padding: 165px 24px 175px;
+
+    @media (min-width: 768px) {
+      padding: 165px 32px 175px;
+    }
+
+    @media (min-width: 992px) {
+      padding: 165px 40px 175px;
+    }
+
+    .w-icon-panel {
+      width: 50px;
+      height: 50px;
+    }
+
+    .history-video__header {
+      font-family: "Great Vibes", cursive;
+      color: var(--header-color);
+      font-size: 14px;
+      font-weight: normal;
+      margin-bottom: 20px;
+
+      @media (min-width: 1030px) {
+        font-size: 28px;
+        margin-bottom: 30px;
+      }
+    }
+
+    .history-video__text-first {
+      font-family: "Prata", serif;
+      color: var(--text-color);
+      font-size: 58px;
+      font-weight: normal;
+      padding-bottom: 50px;
+      line-height: 1.2;
+
+      @media (min-width: 1030px) {
+        font-size: 84px;
+      }
+    }
+
+    .history-video__text-second {
+      font-family: "Rubik", sans-serif;
+      color: var(--text-color);
+      font-size: 18px;
+      margin: 20px 0 50px;
+      line-height: 1.6;
+    }
+
+    .history-video__btn-container {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 5px;
+      margin-top: 25px;
+
+      .history-video__btn {
+        color: var(--text-color);
+        font-family: "Rubik", sans-serif;
+        font-size: 15px;
+        text-decoration: none;
+        font-weight: bold;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+      .history-video__svg {
+        width: 24px;
+        height: 24px;
+        margin-top: 3px;
+      }
+    }
+  }
+}
