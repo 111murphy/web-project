@@ -1,103 +1,110 @@
 .crafted-by {
   background-image: url(../img/background/discover.jpg);
   background-size: cover;
-  min-height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 100px 20px;
   background-position: 48% 50%;
 
-  @media (min-width: 768px) {
+  @media (min-width: 1025x) {
     background-attachment: fixed;
   }
 
-  .crafted-by__header {
-    font-family: "Great Vibes", cursive;
-    color: var(--header-color);
-    font-size: 14px;
-    font-weight: normal;
-    margin-bottom: 20px;
-
-    @media (min-width: 1030px) {
-      font-size: 28px;
-      margin-bottom: 10px;
-    }
-  }
-
-  .crafted-by__text-first {
-    font-family: "Prata", serif;
-    color: var(--text-color);
-    font-size: 58px;
-    font-weight: normal;
-    margin-bottom: 30px;
-    line-height: 1.2;
-    margin: 0 20px;
-
-    @media (min-width: 1030px) {
-      font-size: 84px;
-    }
-  }
-
-  .crafted-by__text-second {
-    font-family: "Rubik", sans-serif;
-    color: var(--text-color);
-    font-size: 18px;
-    margin: 20px 0 50px;
-    line-height: 1.6;
-  }
-
-  .crafted-by__btn-container {
+  .crafted-by__main-container {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
     flex-direction: column;
-    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 165px 0 175px;
 
-    @media (min-width: 345px) {
+    .crafted-by__header {
+      font-family: "Great Vibes", cursive;
+      color: var(--header-color);
+      font-size: 14px;
+      font-weight: normal;
+      margin-bottom: 20px;
+
+      @media (min-width: 1030px) {
+        font-size: 28px;
+        margin-bottom: 30px;
+      }
+    }
+
+    .crafted-by__text-first {
+      font-family: "Prata", serif;
+      color: var(--text-color);
+      font-size: 58px;
+      font-weight: normal;
+      padding-bottom: 50px;
+      line-height: 1.2;
+      margin: 0 20px;
+
+      @media (min-width: 1030px) {
+        font-size: 84px;
+      }
+    }
+
+    .crafted-by__text-second {
+      font-family: "Rubik", sans-serif;
+      color: var(--text-color);
+      font-size: 18px;
+      margin: 20px 0 50px;
+      line-height: 1.6;
+    }
+
+    .crafted-by__btn-container {
       display: flex;
-      flex-direction: row;
-    }
-  }
-  .crafted-by__btn-orange {
-    background-color: var(--header-color);
-    color: var(--text-color);
-    font-size: 16.5px;
-    font-weight: 700;
-    text-decoration: none;
-    border-radius: 2px;
-    border: 3px none;
-    width: 132px;
-    height: 52.5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      flex-direction: column;
+      gap: 20px;
 
-    &:hover {
-      background-color: #d3652ecb;
+      @media (min-width: 345px) {
+        display: flex;
+        flex-direction: row;
+      }
     }
-  }
-  .crafted-by__btn-white {
-    text-decoration: none;
-    background-color: transparent;
-    color: var(--text-color);
-    font-size: 16.5px;
-    font-weight: 700;
-    text-decoration: none;
-    border-radius: 2px;
-    border: 3px solid #ffffff;
-    width: 145px;
-    height: 52.5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    .crafted-by__btn-orange {
+      background-color: var(--header-color);
+      color: var(--text-color);
+      font-size: 16.5px;
+      font-weight: 700;
+      text-decoration: none;
+      border-radius: 2px;
+      border: 3px none;
+      width: 132px;
+      height: 52.5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
-    &:hover {
-      color: black;
-      background-color: var(--text-color);
+      &:hover {
+        background-color: #d3652ecb;
+      }
+    }
+    .crafted-by__btn-white {
+      text-decoration: none;
+      background-color: transparent;
+      color: var(--text-color);
+      font-size: 16.5px;
+      font-weight: 700;
+      text-decoration: none;
+      border-radius: 2px;
+      border: 3px solid #ffffff;
+      width: 145px;
+      height: 52.5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &:hover {
+        color: black;
+        background-color: var(--text-color);
+      }
     }
   }
 }
